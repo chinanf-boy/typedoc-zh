@@ -15,7 +15,7 @@
 
 ---
 
-## 校对 ✅
+## 校对 中
 
 <!-- doc-templite START generated -->
 <!-- repo = 'TypeStrong/typedoc' -->
@@ -30,6 +30,12 @@
 [commit]: https://github.com/TypeStrong/typedoc/tree/e650aa7ec56f6b6ef5cbef2d3feddf6d7ee967bf
 
 <!-- doc-templite END generated -->
+
+- [ ] [使用](./site/usage.zh.md)
+- [ ] [文档](./site/doccomments.zh.md)
+- [ ] [安装](./site/installation.zh.md)
+- [ ] [主题](./site/themes.zh.md)
+
 
 ### 贡献
 
