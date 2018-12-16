@@ -3,11 +3,16 @@ layout: 'guide'
 title: 'Usage'
 menuOrder: 2
 ---
+
 # Usage
+
+> 用法
 
 ## Arguments
 
-TypeDoc接受TypeScript编译器接受的大多数命令行参数.在没有标志的情况下传入的所有参数都将被解析为输入文件.TypeDoc接受目录作为输入文件,它会.
+> 参数
+
+TypeDoc 接受 TypeScript 编译器接受的大多数命令行参数。在没有标志的情况下，传入的所有参数都将被解析为输入文件。TypeDoc 还接受目录作为输入文件。
 
 要为整个项目创建文档,只需键入:
 
@@ -21,7 +26,7 @@ $ typedoc --out path/to/documentation/ path/to/typescript/project/
 $ typedoc --out <path/to/documentation/>
 ```
 
-指定文档应写入的位置.
+指定，文档应写入的位置.
 
 ### name
 
@@ -29,7 +34,7 @@ $ typedoc --out <path/to/documentation/>
 $ typedoc --name <Documentation title>
 ```
 
-设置将在模板标题中使用的项目的名称.
+设置将在模板标题中，使用的项目的名称.
 
 ### readme
 
@@ -37,7 +42,7 @@ $ typedoc --name <Documentation title>
 $ typedoc --readme <path/to/readme|none>
 ```
 
-应在索引页面上显示的自述文件的路径.传递none以禁用索引页面并在globals页面上启动文档.
+应在索引页面上显示的 readme 文件的路径。传递 none 以禁用索引页面，并在 全局 页面上启动文档.
 
 ### module
 
@@ -53,7 +58,7 @@ $ typedoc --module <commonjs or amd>
 $ typedoc --target <ES3 or ES5>
 ```
 
-指定ECMAScript目标版本:"ES3"(默认值)或"ES5"
+指定 ECMAScript 目标版本:"ES3"(默认值)或"ES5"
 
 ### exclude
 
@@ -61,7 +66,7 @@ $ typedoc --target <ES3 or ES5>
 $ typedoc --exclude <pattern>
 ```
 
-当路径作为源提供时,按给定模式排除文件
+当路径作为源提供时,按给定模式排除文件。
 
 ### theme
 
@@ -77,7 +82,7 @@ $ typedoc --theme <path/to/theme>
 $ typedoc --includeDeclarations
 ```
 
-打开.d.ts声明文件的解析.
+打开 `.d.ts` 声明文件的解析.
 
 ### externalPattern
 
@@ -85,7 +90,7 @@ $ typedoc --includeDeclarations
 $ typedoc --externalPattern <pattern>
 ```
 
-为应该被视为外部的文件定义模式.
+为应该被视为外部的文件，定义模式.
 
 ### excludeExternals
 
@@ -93,7 +98,7 @@ $ typedoc --externalPattern <pattern>
 $ typedoc --excludeExternals
 ```
 
-防止记录外部解析的TypeScript文件.
+防止外部解析的 TypeScript 文件被文档化.
 
 ### gaID
 
@@ -101,7 +106,7 @@ $ typedoc --excludeExternals
 $ typedoc --gaID
 ```
 
-设置Google Analytics跟踪ID并激活跟踪代码.
+设置 Google Analytics 跟踪 ID ，并激活跟踪代码.
 
 ### gaSite
 
@@ -109,7 +114,7 @@ $ typedoc --gaID
 $ typedoc --gaSite <site>
 ```
 
-设置Google Analytics的网站名称.默认为`auto`.
+设置 Google Analytics 的网站名称。默认为`auto`.
 
 ### hideGenerator
 
@@ -117,7 +122,7 @@ $ typedoc --gaSite <site>
 $ typedoc --hideGenerator
 ```
 
-不要在页面末尾打印TypeDoc链接.
+不要在页面末尾打印 TypeDoc 链接.
 
 ### verbose
 
@@ -125,4 +130,4 @@ $ typedoc --hideGenerator
 $ typedoc --verbose
 ```
 
-在TypeDoc运行时打印更多信息.
+在 TypeDoc 运行时，打印更多信息.

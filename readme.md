@@ -31,11 +31,10 @@
 
 <!-- doc-templite END generated -->
 
-- [ ] [使用](./site/usage.zh.md)
-- [ ] [文档](./site/doccomments.zh.md)
-- [ ] [安装](./site/installation.zh.md)
+- [x] [使用](./site/usage.zh.md)
+- [x] [文档](./site/doccomments.zh.md)
+- [x] [安装](./site/installation.zh.md)
 - [ ] [主题](./site/themes.zh.md)
-
 
 ### 贡献
 
@@ -69,6 +68,8 @@ $ npm install typedoc --save-dev
 $ npm install typedoc --global
 $ typedoc
 ```
+
+> 友情提示: https://typedoc.org/api/ 官方文档 由 [typedoc/example/self](https://github.com/TypeStrong/typedoc/tree/master/examples/self)自身 生成
 
 ## 用法
 
@@ -120,18 +121,18 @@ $ typedoc --out path/to/documentation/ path/to/typescript/project/
 | - `--theme <default|minimal|path/to/theme>` | 指定应使用的主题的路径.                                                                 |
 | - `--name <Documentation title>`            | 设置将在模板标题中，使用的项目的名称.                                                   |
 | - `--readme <path/to/readme|none>`          | 应在索引页面上显示的 readme 文件的路径。通过`none`禁用索引页面并在 全局 页面上启动文档. |
-| - `--plugin`                                | 指定应加载的 npm 插件，省略加载所有已安装的插件,设置为"none"以不加载任何插件.            |
+| - `--plugin`                                | 指定应加载的 npm 插件，省略加载所有已安装的插件,设置为"none"以不加载任何插件.           |
 | - `--hideGenerator`                         | 不要在页面末尾打印 TypeDoc 链接.                                                        |
 | - `--gaID`                                  | 设置 Google Analytics 跟踪 ID 并激活跟踪代码.                                           |
-| - `--gaSite <site>`                         | 设置 Google Analytics 的网站名称。默认为`auto`                                           |
-| - `--entryPoint <fully.qualified.name>`     | 指定根符号的完全规范名称。默认为全局命名空间.                                            |
-| - `--gitRevision <revision|branch>`         | 使用指定的修订版或分支，而不是最后一个GitHub 源文件的修订版链接.                       |
+| - `--gaSite <site>`                         | 设置 Google Analytics 的网站名称。默认为`auto`                                          |
+| - `--entryPoint <fully.qualified.name>`     | 指定根符号的完全规范名称。默认为全局命名空间.                                           |
+| - `--gitRevision <revision|branch>`         | 使用指定的修订版或分支，而不是最后一个 GitHub 源文件的修订版链接.                       |
 
 #### 内容
 
-| 名                              | 曰                                                                                                           |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| `--includes <path/to/includes>` | 指定查找包含文档的位置。一种是在注释中使用<code>[[include:FILENAME]]</code>，包括来自此位置的文档.          |
+| 名                              | 曰                                                                                                            |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| `--includes <path/to/includes>` | 指定查找包含文档的位置。一种是在注释中使用<code>[[include:FILENAME]]</code>，包括来自此位置的文档.            |
 | `--media <path/to/media>`       | 指定应复制到输出目录的媒体文件的位置。要创建媒体文件的链接,请在注释中使用该模式<code>media://FILENAME</code>. |
 
 #### 杂
@@ -157,7 +158,7 @@ Microsoft 创建的， Webpack 插件可以运行 TypeDoc 。你可以在 NPM �
 
 ## 插件
 
-- [External Module Name  >< 外部模块名称](https://github.com/christopherthielen/typedoc-plugin-external-module-name)- 设置 TypeDoc 外部模块的名称
+- [External Module Name >< 外部模块名称](https://github.com/christopherthielen/typedoc-plugin-external-module-name)- 设置 TypeDoc 外部模块的名称
 - [Sourcefile URL >< 源文件 URL](https://github.com/gdelmas/typedoc-plugin-sourcefile-url)- 设置自定义源文件 URL 链接
 - [Internal/External Module >< 内/外部 模块](https://github.com/christopherthielen/typedoc-plugin-internal-external)- 明确将模块标记为`@internal`或`@external`
 - [Single Line Tags >< 单行标签](https://github.com/christopherthielen/typedoc-plugin-single-line-tags)- 处理指定的`@tags`作为单行
