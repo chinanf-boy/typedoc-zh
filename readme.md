@@ -15,7 +15,7 @@
 
 ---
 
-## 校对 中
+## 校对 ✅
 
 <!-- doc-templite START generated -->
 <!-- repo = 'TypeStrong/typedoc' -->
@@ -31,10 +31,11 @@
 
 <!-- doc-templite END generated -->
 
+- [x] readme
 - [x] [使用](./site/usage.zh.md)
 - [x] [文档](./site/doccomments.zh.md)
 - [x] [安装](./site/installation.zh.md)
-- [ ] [主题](./site/themes.zh.md)
+- [x] [主题](./site/themes.zh.md)
 
 ### 贡献
 
